@@ -2,7 +2,7 @@ from typing import List, Dict
 from mem0 import MemoryClient
 from cred import MEM0_API_KEY
 
-mem0 = MemoryClient()
+mem0 = MemoryClient(api_key=MEM0_API_KEY)
 
 def retrieve_context(query: str, user_id: str) -> List[Dict]:
     try:

@@ -10,4 +10,4 @@ def generate_response(user_input: str, context):
         "input": user_input,
         "context": context
     })
-    return response.content
+    return response.content[0]['text']
