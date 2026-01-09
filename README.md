@@ -21,23 +21,26 @@ It showcases how user preferences, context, and historical interactions can be s
 ### ⚙️ Setup Instructions
 
 1️⃣ Clone the Repository
-git clone <repository-url>
-cd MEM0_ASSIGNMENT
+
+    git clone <repository-url>
+    cd MEM0_ASSIGNMENT
 
 2️⃣ Create Virtual Environment
-python -m venv venv
-source venv/bin/activate   # Linux / Mac
-venv\Scripts\activate      # Windows
+
+    python -m venv venv
+    source venv/bin/activate   # Linux / Mac
+    venv\Scripts\activate      # Windows
 
 3️⃣ Install Dependencies
-pip install -r requirements.txt
+
+    pip install -r requirements.txt
 
 4️⃣ Configure Environment Variables
 
 Create a .env file:
 
-MEM0_API_KEY=your_mem0_api_key_here
-OPENAI_API_KEY=your_openai_api_key_here
+    MEM0_API_KEY=your_mem0_api_key_here
+    OPENAI_API_KEY=your_openai_api_key_here
 
 ### ▶️ Running the Project
 python main.py
