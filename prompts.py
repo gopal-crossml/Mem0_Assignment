@@ -2,6 +2,18 @@ from langchain_core.messages import SystemMessage, HumanMessage
 from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
 
 def get_prompt():
+    """
+    Summary:
+        This function constructs a 'ChatPromptTemplate' designed for a personal assistant AI. 
+        The AI uses this prompt to generate context-aware and personalized responses.
+
+    Args:
+        None
+
+    Returns:
+        ChatPromptTemplate: A prompt template object ready to be used
+        with a language model for generating chat responses.
+    """
     return ChatPromptTemplate.from_messages([
         SystemMessage(content="""
 You are a helpful Personal Assistant AI.
