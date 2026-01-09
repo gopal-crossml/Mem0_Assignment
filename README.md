@@ -14,7 +14,7 @@ It showcases how user preferences, context, and historical interactions can be s
 
 -Python 3.10+
 -Mem0
--LangChain (optional integration)
+-LangChain 
 -GenAI / LLM APIs
 -dotenv
 
@@ -22,8 +22,8 @@ It showcases how user preferences, context, and historical interactions can be s
 
 1️⃣ Clone the Repository
 
-    git clone <repository-url>
-    cd MEM0_ASSIGNMENT
+    git clone https://github.com/gopal-crossml/Mem0_Assignment.git
+    cd Mem0_Assignment
 
 2️⃣ Create Virtual Environment
 
